@@ -1,0 +1,41 @@
+<h1>Добавить курсы</h1>
+
+<form action="/add" method="POST">
+  <div class="input-field">
+    <input
+      placeholder="Название"
+      id="name"
+      type="text"
+      class="validate"
+      name="title"
+      required
+    />
+    <label for="first_name">Название</label>
+    <span class="helper-text" data-error="Введите название"></span>
+  </div>
+  <div class="input-field">
+    <input
+      placeholder="Название"
+      id="price"
+      name="price"
+      type="text"
+      class="validate"
+      required
+    />
+    <label for="first_name">Цена</label>
+    <span class="helper-text" data-error="Введите цену"></span>
+  </div>
+  <div class="input-field">
+    <input
+      placeholder="Название"
+      id="img"
+      name="img"
+      type="text"
+      class="validate"
+      required
+    />
+    <label for="first_name">URL-Картинки</label>
+    <span class="helper-text" data-error="Введите url-картинки"></span>
+  </div>
+  <button class="btn btn-primary">Добавить курс </button>
+</form>
